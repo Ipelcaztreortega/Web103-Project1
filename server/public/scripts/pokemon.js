@@ -14,7 +14,7 @@ const renderPokemon = async () => {
         document.getElementById('image').src = pokemon.image
         document.getElementById('name').textContent = pokemon.name
         document.getElementById('discoveredBy').textContent = 'Discovered by: ' + pokemon.discoveredBy
-        document.getElementById('type').textContent = 'Price: ' + pokemon.type
+        document.getElementById('type').textContent = 'Type: ' + pokemon.type
         document.getElementById('habitat').textContent = 'Great For: ' + pokemon.habitat
         document.getElementById('description').textContent = pokemon.description
         document.title = `Pokemon API- ${pokemon.name}`
